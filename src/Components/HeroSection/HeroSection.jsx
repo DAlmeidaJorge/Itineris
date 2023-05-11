@@ -1,6 +1,7 @@
 import React from 'react';
 import "./HeroSection.css";
 
+
 const HeroSection = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const HeroSection = () => {
     
       <div className="nav-section-container">
     <div className="logo">
-      <h1>Itineris</h1>
+      <h1>itineris</h1>
       </div>
       <ul className='nav-bar-section'>
         <li>Destinations</li>

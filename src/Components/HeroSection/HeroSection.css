@@ -9,8 +9,9 @@
     justify-content: flex-end;
     gap:80px;
     margin-right: 100px;
+    box-shadow: 0 2px 4px rgba(26, 26, 92, 0.7);
     cursor: pointer;
-    color: rgb(239, 86, 31);
+    color: white;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -20,9 +21,10 @@
     
 }
 
-.logo{
-    color:rgb(239, 86, 31) ;
-}
+ .logo{
+    color:white;
+    font-weight: bold;
+} 
 
 .nav-section-container{
 display: flex;
