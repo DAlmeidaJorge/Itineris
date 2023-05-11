@@ -20,29 +20,29 @@ const HeroSection = () => {
     </div>
     <div className="hero-section">
       <h1>Begin your Journey now</h1>
-      <h3 className="quote-section">
-      Embrace the unknown , Explore the uncharted</h3>
+      <h2 className="quote-section">
+      Embrace the unknown , Explore the uncharted</h2>
     </div>
     <button className="learn-button">
       Learn More
     </button>
     <div className="main-footer-container">
     <div className="first-footer-container">
-      <h4>01</h4>
-      <h3>Choose place, activity and time</h3>
-      <h5>Craft Your Dream Getaway: Plan Your Ideal Trip </h5>
+      <h1 className="footer-number">01</h1>
+      <h2 className="footer-title">Choose place, activity and time</h2>
+      <h3 className="footer-text">Craft Your Dream Getaway: Plan Your Ideal Trip </h3>
       
     </div>
     <div className="second-footer-container">
-      <h4>02</h4>
-      <h3>Find people with the same travel plans</h3>
-      <h5>You can find people with the same interests, who know the routes you've never traveled</h5>
+      <h1 className="footer-number">02</h1>
+      <h2 className="footer-title">Find people with the same travel plans</h2>
+      <h3 className="footer-text">You can find people with the same interests, who know the routes you've never traveled</h3>
       
     </div>
     <div className="third-footer-container">
-      <h4>03</h4>
-      <h3>Start chat and offer to go on a joint adventure</h3>
-      <h5>Discuss the details of your trip and have a great time! You might find a great friend for life</h5>
+      <h1 className="footer-number">03</h1>
+      <h2 className="footer-title">Start chat and offer to go on a joint adventure</h2>
+      <h3 className="footer-text">Discuss the details of your trip and have a great time! You might find a great friend for life</h3>
       
     </div>
     </div>
