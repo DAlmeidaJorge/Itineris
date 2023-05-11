@@ -1,21 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import HeroSection from './Components/HeroSection/HeroSection.jsx';
 
 function App() {
   return (
     <div className="App">
-      <div className ="hero-section">
-      
-       
+      <HeroSection />
+      {/* <div className ="hero-section">
+        <div>
        <h1 className="logo">Itineris</h1>
-       <ul className="Nav-bar-list">
-        <li className="about-section">
-        About us</li>
-        <li>Nature</li>     
-          </ul>
-      </div>
-    
+       </div>
+       <div className="nav-bar-container">
+        <ul className="nav-bar-list">
+         <li className="about-section">About</li>
+         <li className="gallery-section">Gallery</li>
+          <li className="destination-section">Destination</li> 
+          <li className="testimonials-section">Testimonials</li>    
+      </ul>
     </div>
+      <h1 className="journey-section">Begin your Journey now</h1>
+      <h2 className="journey-quote">Embrace the unknown, explore the uncharted</h2>
+      </div> */}
+  </div>
   );
 }
 
