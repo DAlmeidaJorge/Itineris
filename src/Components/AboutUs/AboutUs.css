@@ -1,8 +1,8 @@
 .about-us-image {
     border-radius: 12px;
-    
-  
-      
+
+
+
 }
 
 
@@ -10,5 +10,93 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 150px;
+    align-items: flex-start;
+    gap: 100px;
 }
+
+.about-us-text-container{
+ display: flex;
+ flex-direction: column;
+  /* margin-right: 800px;  */
+}
+
+.who-title{
+    font-size:20px;
+    margin-left:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    opacity: 90%;
+}
+
+.about-title{
+
+    margin-top:2px;
+    margin-left:50px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.about-text{
+    width: 600px;
+    margin-top:2px;
+    margin-left:30px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.contact-button{
+    border-radius: 38px;
+  border: 2px solid rgb(239, 86, 31);
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  margin-left: 90px;
+  margin-top:30px;
+  background-color: rgb(239, 86, 31);
+  color:white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.numbers{
+    color: orangered;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.about-description{
+    color: black;
+    font-size:12px;
+
+
+
+}
+
+.about-statistics-container{
+    display: flex; 
+    gap:5px;
+    
+
+
+}
+
+
+
+
+ .about-cover{
+
+
+  width: 40%;
+  height: 40%;
+  margin-left: 130px;
+  border-radius: 10px;
+
+
+
+} 
+
