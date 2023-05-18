@@ -1,0 +1,14 @@
+.about-us-image {
+    border-radius: 12px;
+    
+  
+      
+}
+
+
+.about-us-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
