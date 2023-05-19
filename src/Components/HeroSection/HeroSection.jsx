@@ -40,7 +40,7 @@ const HeroSection = () => {
       >
           About
           </Link>
-        <li>Gallery</li>
+        <li>FAQ</li>
         <li>Testimonials</li>
         <li>Sign in</li>
       </ul>

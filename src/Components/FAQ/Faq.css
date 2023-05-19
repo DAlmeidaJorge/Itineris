@@ -1,0 +1,50 @@
+.faq-container {
+    margin-top: 20px;
+  }
+  
+  .accordion {
+    background-color: #EAF5FF; /* Light blue background color */
+    color: #0066CC; /* Blue text color */
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion.active {
+    background-color: #ddd;
+  }
+  
+  .panel {
+    padding: 0 10px;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .panel.show {
+    max-height: 1000px; /* Adjust this value to fit your content */
+  }
+  
+  .panel p {
+    margin-top: 10px;
+  }
+  
+  .accordion-icon {
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+ .faq-quote{
+    color: blue;
+    
+ }

@@ -4,7 +4,7 @@ import HeroSection from './Components/HeroSection/HeroSection.jsx';
 import Destinations from './Components/HeroSection/Destinations/Destinations';
 import AboutUs from './Components/AboutUs/AboutUs';
 import Testimonials from './Components/Testimonials/Testimonials';
-
+import Faq from './Components/FAQ/Faq';
 
 function App() {
   return (
@@ -17,6 +17,8 @@ function App() {
       <AboutUs />
       
       <Testimonials />
+      
+      <Faq />
       
   </div>
   );
