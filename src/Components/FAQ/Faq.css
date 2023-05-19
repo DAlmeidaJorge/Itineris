@@ -1,50 +1,96 @@
+.color-container{
+  background-color: #f8f8f8;
+  border: 4px solid #eaeaea;
+  border-radius: 10px;
+}
+
 .faq-container {
     margin-top: 20px;
+    margin-bottom: 20px;
+    
   }
   
+
+  .faq-title{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .faq-para{
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
   .accordion {
-    background-color: #EAF5FF; /* Light blue background color */
-    color: #0066CC; /* Blue text color */
+    background-color: #f2f2f2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+   color: black;
     cursor: pointer;
     font-weight: bold;
     padding: 10px;
     width: 100%;
-    text-align: left;
+    text-align: center;
     border: none;
+    border-radius: 10px;
     outline: none;
     transition: background-color 0.3s ease;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   .accordion.active {
-    background-color: #ddd;
+    background-color: #dddddd;
   }
   
   .panel {
+    
     padding: 0 10px;
-    background-color: #fff;
+    background-color: #f8f8f8;
+    border: 2px solid #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
   }
   
   .panel.show {
-    max-height: 1000px; /* Adjust this value to fit your content */
+    max-height: 1000px; 
+    background-color: #f2f9ff;
+    color:rgb(65, 75, 86);
   }
   
   .panel p {
     margin-top: 10px;
+    line-height: 1.5;
+    color: #333333;
   }
   
   .accordion-icon {
     margin-left: 5px;
     transition: transform 0.3s ease;
+    color:#0066cc;
+    
   }
   
   .rotate {
     transform: rotate(180deg);
   }
   
- .faq-quote{
-    color: blue;
+  .accordion:hover {
+    background-color: #e6e6e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     
- }
+  }
+
+  .accordion:hover .accordion-icon {
+    transform: rotate(180deg);
+  }
+
+  

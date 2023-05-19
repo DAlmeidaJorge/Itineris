@@ -4,9 +4,11 @@ import "./Destinations.css";
 const Destinations = () => {
   return (
        <div className='main-destination-container'>
+        
       <h1 className='where-heading'>WHERE TO GO</h1>
       <h1 className='destinations-heading'>Trending Offers</h1>
-      <div className='pictures-container'> 
+      <div className='pictures-container'>
+         
       <div className='slovenia-container'>
         <div className='slovenia-details'>
         <h1 className='country-title'>Slovenia</h1>

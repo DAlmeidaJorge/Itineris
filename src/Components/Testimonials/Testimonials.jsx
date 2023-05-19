@@ -7,6 +7,7 @@ const Testimonials = () => {
 
 
 <div className='main-testimonials-container'>
+  <div className='testimonials-color-container'>
     <h2 className='testimonials-heading'>TESTIMONIALS OF OUR TRIPS</h2>
     <h2 className='testimonials-second-heading'>Completed Journeys</h2> 
 
@@ -52,7 +53,7 @@ const Testimonials = () => {
 
  </div>
     
-
+ </div>
  </div>
                                      
  )

@@ -40,8 +40,30 @@ const HeroSection = () => {
       >
           About
           </Link>
-        <li>FAQ</li>
-        <li>Testimonials</li>
+          <li>
+    <Link
+      activeClass="active"
+      to="main-testimonials-container"
+      spy={true}
+      smooth={true}
+      offset={-70} 
+      duration={500}
+    >
+      Testimonials
+    </Link>
+  </li>
+  <li>
+    <Link
+      activeClass="active"
+      to="color-container"
+      spy={true}
+      smooth={true}
+      offset={-70} 
+      duration={500}
+    >
+       FAQ
+    </Link>
+  </li>
         <li>Sign in</li>
       </ul>
     </div>

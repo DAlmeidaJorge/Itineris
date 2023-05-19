@@ -16,7 +16,7 @@ const Faq = () => {
     },
     {
       question: "What are the best destinations for solo travelers?",
-      answer: "Wherever your heart takes you! Just about any place worth exploring is a good spot to venture out on your own.",
+      answer: "Ideal destinations for solo travelers encompass a wide array of choices, from breathtaking natural wonders like serene mountains, pristine beaches, and lush rainforests, to culturally rich regions offering unique experiences, historical sites, and vibrant local communities.",
     },
     {
       question: "What's the age range of a group trip?",
@@ -28,18 +28,19 @@ const Faq = () => {
     },
     {
       question: "Are single travelers mainly women or men?",
-      answer: "Most of our trips split pretty evenly down gender lines. We average roughly 60:40 female-to-male, so you’ll never feel outnumbered.",
+      answer:  "Most of our trips split pretty evenly down gender lines. For every trip in Itineris we average roughly 50:50 female-to-male, so you don't have to worry because you will never feel outnumbered.",
     },
     {
       question: "How can I find out ahead of time who is in my group?",
-      answer: "On most G Adventures tours, the ratio of solo travelers to others (couples, friends travelling together, etc) is roughly 40:60. For privacy reasons, we can’t share information about your soon-to-be travelling companions ahead of time. Our tours appeal to a wide cross-section of adventurous people from all over the world united by a desire to experience our planet from a grassroots level. Our tours are conducted in English and tend to attract travellers from North America, the United Kingdom, Australia, New Zealand, and Europe.",
+      answer: "On most Itineris journeys, the ratio of solo travelers to others (couples, friends traveling together, etc.) is approximately 40:60. In respect of privacy, we are unable to provide information about your future travel companions in advance. Our tours captivate an eclectic mix of adventurous individuals from various corners of the globe, all driven by a shared passion to explore our planet at its grassroots level. Itineris tours are conducted primarily in English and attract travelers hailing from North America, the United Kingdom, Australia, New Zealand, and Europe.",
     },
   ];
   
   return (
     <div>
-      <h2>Frequently Asked Questions</h2>
-      <p>
+      <div className='color-container'>
+      <h2 className='faq-title'>Frequently Asked Questions</h2>
+      <p className='faq-para'>
         Never traveled solo or gone as part of a group before? We can get you sorted. Check out some of our most frequently asked questions, or get in touch with us any time.
        </p>
 
@@ -57,6 +58,7 @@ const Faq = () => {
           </div>
         </div>
       ))}
+      </div>
     </div>
   );
 }
