@@ -14,14 +14,24 @@ const AboutUs = () => {
             <p className='about-text'>Discover the world with Itineris! We're your ultimate travel companion, offering curated destinations, captivating galleries,and authentic traveler testimonials. Plan your adventure,
                  find inspiration, and unlock unforgettable experiences. Join our passionate community of wanderers and start exploring today!</p>
                  <div className='about-statistics-container'>
+          <div className='main-subtitle-number-container'>
+                    <div className='subtitle-number-container'>
+                    <h2 className='about-description'>Activities</h2>
                     <h2 className='numbers'>45</h2>
-                    <h2 className='about-description'>Type of Activities</h2>
+                        </div>
+                    <div className='subtitle-number-container'>
+                    <h2 className='about-description'>Countries</h2>
                     <h2 className='numbers'>35</h2>
-                    <h2 className='about-description'>Countries Available</h2>
+                        </div>
+                        <div className='subtitle-number-container'>
+                    <h2 className='about-description'>Testimonials</h2>
                     <h2 className='numbers'>80</h2>
-                    <h2 className='about-description'>Traveling Testimonials</h2>
-                    <h2 className='numbers'>+100</h2>
+                       </div>
+                       <div className='subtitle-number-container'>
                     <h2 className='about-description'>Photographs</h2>
+                    <h2 className='numbers'>+100</h2>
+                    </div>
+                    </div>
                  </div>
             <button className='contact-button'>Contact Us</button>
                  </div>

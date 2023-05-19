@@ -47,6 +47,21 @@ margin-top: -123px;
 
 }
 
+.slovenia-container::after {
+    content: "Early Bird Special: Book in advance and get 20% off your travel package!";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+
 .slovenia-container:hover{
 
     cursor: pointer;
@@ -55,6 +70,10 @@ margin-top: -123px;
 
 }
    
+.slovenia-container:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
 
 
 .italy-container{
@@ -71,6 +90,20 @@ margin-top: -123px;
     transition: 0.3s;
 }
 
+.italy-container::after {
+    content: "Limited-time offer! Enjoy 50% off selected destinations for the next 48 hours!";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
 
 
 .italy-container:hover{
@@ -81,14 +114,10 @@ margin-top: -123px;
 
 }
 
-.croatia-container:hover{
-
-    cursor: pointer;
-    transform: scale(1.1); 
-    
-
-}
-
+.italy-container:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
 
 
 .croatia-container{
@@ -106,6 +135,22 @@ margin-top: -123px;
     transition: 0.3s;
     
 }
+
+.croatia-container::after {
+    content: "Family Discount: Travel with your family and receive a 30% discount on accommodation and activities!";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+
 .croatia-container:hover{
 
     cursor: pointer;
@@ -113,6 +158,11 @@ margin-top: -123px;
     
 
 }
+
+.croatia-container:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
 
 .croatia-details{
     display: flex;

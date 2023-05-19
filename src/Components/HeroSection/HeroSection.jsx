@@ -27,7 +27,7 @@ const HeroSection = () => {
         offset={-70} 
         duration={500}
       >
-          Destinations
+          Trending Offers
           </Link>
         </li>
         <Link
