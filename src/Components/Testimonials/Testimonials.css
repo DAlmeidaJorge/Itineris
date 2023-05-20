@@ -40,7 +40,8 @@
 .secondary-testimonials-container{
     display: flex;
     justify-content: center;
-    margin-top:-58px;
+    margin-top: -610px;
+    margin-left: 70px;
     gap:2px;
     
 }
@@ -48,15 +49,15 @@
 .norway-details{
     
   position: relative;
-  background-image: url(https://eu-assets.simpleview-europe.com/svalbard/imageresizer/?image=%2Fdbimgs%2FNordlysVinterNyGallery.jpg&action=MediaGallery);
+  /* background-image: url(https://eu-assets.simpleview-europe.com/svalbard/imageresizer/?image=%2Fdbimgs%2FNordlysVinterNyGallery.jpg&action=MediaGallery);  */
   background-size: contain;
   background-repeat: no-repeat;
   width: 1100px;
-  padding-bottom: 25%;
+   padding-bottom: 25%; 
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: -60px;
+   margin-bottom: -60px; 
   border-radius: 10px;
     
 }
@@ -74,7 +75,7 @@
 
 
 .prague-details{
-    background-image: url(https://cdn.wallpapersafari.com/19/46/UWMBKf.jpg);
+    /* background-image: url(https://cdn.wallpapersafari.com/19/46/UWMBKf.jpg);  */
     background-size: contain;
     background-repeat: no-repeat;
     width: 550px;
@@ -96,7 +97,7 @@
 }
 
 .china-details{
-    background-image: url(https://www.mostbeautifulspots.com/wp-content/uploads/2016/10/Zhangjiajie-National-Forest-Park-China-.jpg);
+    /* background-image: url(https://www.mostbeautifulspots.com/wp-content/uploads/2016/10/Zhangjiajie-National-Forest-Park-China-.jpg);  */
     background-size: contain;
     background-repeat: no-repeat;
     width: 550px;
@@ -116,8 +117,8 @@
 
 .next-norway-button {
  position: relative;
-  bottom: -279px;
-  right: -440px;
+  bottom: -30px;
+  right: 80px;
   display: flex;
   justify-content: flex-end;
   padding: 10px;
@@ -129,8 +130,8 @@
   
   .next-prague-button {
     position: relative;
-    bottom: -289px;
-    right: -475px;
+    bottom: 250px;
+    right: -470px;
     justify-content: flex-end;
     padding: 10px;
     cursor: pointer;
@@ -141,8 +142,8 @@
   
 .next-china-button {
     position: relative;
-    bottom: -289px;
-    right: -475px;
+    bottom: 250px;
+    right: -470px;
     justify-content: flex-end;
     padding: 10px;
     cursor: pointer;
