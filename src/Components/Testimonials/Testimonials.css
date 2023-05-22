@@ -1,13 +1,17 @@
 
 .main-testimonials-container{
-  margin-top: 100px;
+  margin-top: 65px;
+  margin-left: 15px;
    
 }
 
 .testimonials-color-container{
   background-color: #f8f8f8;
+  /* display: flex; */
+  flex-direction: column;
   border: 4px solid #eaeaea;
   border-radius: 10px;
+ 
 }
 
 .testimonials-heading{
@@ -15,7 +19,7 @@
     font-weight: bold;
     font-size: 20px;
     justify-content: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .testimonials-second-heading{
@@ -25,47 +29,51 @@
   color: black;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 10px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .pictures-testimonials-container{
-    display: flex;
-  flex-direction: column;
-  align-items: center;
+    /* display: flex; */
+    margin-left:10px;
+    
+ 
+
+  
+  
 
 
 }
 
 .secondary-testimonials-container{
-    display: flex;
-    justify-content: center;
-    margin-top: -610px;
-    margin-left: 70px;
-    gap:2px;
+  display: flex;
+  margin-left: 160px;
+  margin-top:-90px;
+  
+    
+    
+   
+    
     
 }
  
+.secondary-testimonials-container img {
+  margin-right: -65px;
+}
+
 .norway-details{
     
-  position: relative;
-  /* background-image: url(https://eu-assets.simpleview-europe.com/svalbard/imageresizer/?image=%2Fdbimgs%2FNordlysVinterNyGallery.jpg&action=MediaGallery);  */
+  padding-left: 80px;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 1100px;
-   padding-bottom: 25%; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-   margin-bottom: -60px; 
+
   border-radius: 10px;
     
 }
 
 .norway-details h1 {
     position: relative;
-    bottom: -255px; /* Adjust this value as needed */
-    right: 430px;
+    bottom:-500px; /* Adjust this value as needed */
+    right: -110px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     color:antiquewhite;
@@ -75,11 +83,9 @@
 
 
 .prague-details{
-    /* background-image: url(https://cdn.wallpapersafari.com/19/46/UWMBKf.jpg);  */
+    
     background-size: contain;
     background-repeat: no-repeat;
-    width: 550px;
-    padding-bottom: 35%;
     border-radius: 10px;
     
     
@@ -87,8 +93,8 @@
 
 .prague-details h1{
     position: relative;
-    bottom: -325px; /* Adjust this value as needed */
-    right: -10px;
+    bottom: -350px; /* Adjust this value as needed */
+    right: -30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     color:antiquewhite;
@@ -97,18 +103,17 @@
 }
 
 .china-details{
-    /* background-image: url(https://www.mostbeautifulspots.com/wp-content/uploads/2016/10/Zhangjiajie-National-Forest-Park-China-.jpg);  */
+   
     background-size: contain;
     background-repeat: no-repeat;
-    width: 550px;
-    padding-bottom: 35%;
     border-radius:10px;
+   
 }
 
 .china-details h1{
     position: relative;
-    bottom:-325px;
-    left:10px;
+    bottom:-350px;
+    left:20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     color:antiquewhite;
@@ -117,9 +122,8 @@
 
 .next-norway-button {
  position: relative;
-  bottom: -30px;
-  right: 80px;
-  display: flex;
+  bottom: 20px;
+  right: 100px;
   justify-content: flex-end;
   padding: 10px;
   cursor: pointer;
@@ -130,8 +134,8 @@
   
   .next-prague-button {
     position: relative;
-    bottom: 250px;
-    right: -470px;
+    bottom: 20px;
+    right: 35px;
     justify-content: flex-end;
     padding: 10px;
     cursor: pointer;
@@ -142,8 +146,8 @@
   
 .next-china-button {
     position: relative;
-    bottom: 250px;
-    right: -470px;
+    bottom: 20px;
+    right: 30px;
     justify-content: flex-end;
     padding: 10px;
     cursor: pointer;

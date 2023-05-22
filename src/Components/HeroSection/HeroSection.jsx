@@ -5,6 +5,14 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 
 
 const HeroSection = () => {
+
+  const handleLearnmoreClick = () => {
+    window.open(
+      "https://www.nationwide.com/lc/resources/home/articles/travel-safety-tips",
+      "_blank" //blank importante para abrir uma pagina num separador a parte
+    );
+  };
+
   return (
     <div >
     <img className='background-cover' src ="https://www.pixelstalk.net/wp-content/uploads/images6/4K-Travel-Wallpaper.jpg" alt="nature-img" width={"100%"} height={"100%"} opacity={"90%"} />
@@ -64,7 +72,7 @@ const HeroSection = () => {
        FAQ
     </Link>
   </li>
-        <li>Sign in</li>
+        <li>Contact Us</li>
       </ul>
     </div>
     <div className="hero-section">
@@ -72,7 +80,7 @@ const HeroSection = () => {
       <h2 className="quote-section">
       Embrace the unknown , Explore the uncharted...</h2>
     </div>
-    <button className="learn-button">
+    <button onClick={handleLearnmoreClick} className="learn-button">
       Learn More!
     </button>
     <div className="main-footer-container">

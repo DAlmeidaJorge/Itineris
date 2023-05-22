@@ -2,15 +2,33 @@ import React, { useState } from 'react'
 import "./Testimonials.css";
 import { AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
 
+
+
+
 const Testimonials = () => {
+
+const norway1 = 'https://eu-assets.simpleview-europe.com/svalbard/imageresizer/?image=%2Fdbimgs%2FNordlysVinterNyGallery.jpg&action=MediaGallery'
+const norway2 = 'https://assets.vogue.com/photos/5a8a3be67cea34278b66789d/master/w_1600%2Cc_limit/02-travel-guide-to-svalbard-islands-norway-north-pole.jpg'
+const norway3 = 'https://cdn.britannica.com/31/170931-050-01221459/Summer-landscape-Spitsbergen-Svalbard-Norway.jpg'
+
+const prague1 ='https://cdn.wallpapersafari.com/19/46/UWMBKf.jpg'
+const prague2 ='https://www.travelandleisure.com/thmb/8kdd3Y0uI2qSjm1-4vIwGDrqKGM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/prague-castle-czech-republic-PRACAS0302-25faba77a59f404aac2ea3579323dad2.jpg'
+const prague3 ='https://media.nomadicmatt.com/2022/pragueitinerary.jpeg'
+
+const china1 = 'https://www.mostbeautifulspots.com/wp-content/uploads/2016/10/Zhangjiajie-National-Forest-Park-China-.jpg'
+const china2 = 'https://cdn.theatlantic.com/media/img/photo/2018/05/travel-monday-a-photo-trip-to-zhang/z01_1021238707/main_1500.jpg'
+const china3 = 'https://nationalparks-15bc7.kxcdn.com/images/parks/zhangjiajie/Zhangjiajie%20National%20Park.jpg'
+
+
+
 
    const [norwayIndex, setNorwayIndex] = useState(0);
    const [pragueIndex, setPragueIndex] = useState(0);
    const [chinaIndex,  setChinaIndex] = useState(0);
 
-   const norwayPictures = ['https://eu-assets.simpleview-europe.com/svalbard/imageresizer/?image=%2Fdbimgs%2FNordlysVinterNyGallery.jpg&action=MediaGallery', 'https://assets.vogue.com/photos/5a8a3be67cea34278b66789d/master/w_1600%2Cc_limit/02-travel-guide-to-svalbard-islands-norway-north-pole.jpg', 'https://cdn.britannica.com/31/170931-050-01221459/Summer-landscape-Spitsbergen-Svalbard-Norway.jpg'];
-   const praguePictures = ['https://cdn.wallpapersafari.com/19/46/UWMBKf.jpg', 'https://www.travelandleisure.com/thmb/8kdd3Y0uI2qSjm1-4vIwGDrqKGM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/prague-castle-czech-republic-PRACAS0302-25faba77a59f404aac2ea3579323dad2.jpg', 'https://media.nomadicmatt.com/2022/pragueitinerary.jpeg'];
-   const chinaPictures = ['https://www.mostbeautifulspots.com/wp-content/uploads/2016/10/Zhangjiajie-National-Forest-Park-China-.jpg', 'https://cdn.theatlantic.com/media/img/photo/2018/05/travel-monday-a-photo-trip-to-zhang/z01_1021238707/main_1500.jpg', 'https://nationalparks-15bc7.kxcdn.com/images/parks/zhangjiajie/Zhangjiajie%20National%20Park.jpg'];
+   const norwayPictures = [norway1, norway2, norway3];
+   const praguePictures = [prague1, prague2, prague3];
+   const chinaPictures = [china1, china2, china3];
 
    const handleNorwayBackward = () => {
     setNorwayIndex(prevIndex =>
@@ -19,7 +37,7 @@ const Testimonials = () => {
    };
 
    const handleNorwayForward = () => {
-    setNorwayIndex(prevIndex => (prevIndex + 1) % praguePictures.length);
+    setNorwayIndex(prevIndex => (prevIndex + 1) % norwayPictures.length);
   };
 
    const handlePragueForward = () => {
@@ -52,7 +70,7 @@ const Testimonials = () => {
 <div className='main-testimonials-container'>
   <div className='testimonials-color-container'>
     <h2 className='testimonials-heading'>TESTIMONIALS OF OUR TRIPS</h2>
-    <h2 className='testimonials-second-heading'>Completed Journeys</h2> 
+    <h2 className='testimonials-second-heading'>Gallery</h2> 
 
 <div className='pictures-testimonials-container'>
 
@@ -61,6 +79,8 @@ const Testimonials = () => {
           <img
               src={norwayPictures[norwayIndex]}
               alt="Norway"
+              width="1110"
+              height="500"
               className="norway-details"
             />  
 
@@ -79,6 +99,8 @@ const Testimonials = () => {
      <img
                 src={praguePictures[pragueIndex]}
                 alt="Prague"
+                width="540"
+                height="340"
                 className="prague-details"
               /> 
 
@@ -96,6 +118,8 @@ const Testimonials = () => {
      <img
                 src={chinaPictures[chinaIndex]}
                 alt="China"
+                width="560"
+                height="340"
                 className="china-details"
               /> 
 

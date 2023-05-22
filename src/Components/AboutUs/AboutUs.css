@@ -22,13 +22,14 @@
 .about-us-text-container{
  display: flex;
  flex-direction: column;
+
   /* margin-right: 800px;  */
 }
 
 .who-title{
     font-size:20px;
     margin-left:50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
     opacity: 90%;
 }
@@ -38,7 +39,7 @@
     margin-top:2px;
     margin-left:50px;
     font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
 }
 
@@ -58,7 +59,7 @@
   width: 150px;
   height: 50px;
   margin-left: 90px;
-  margin-top:30px;
+  margin-top:20px;
   background-color: rgb(239, 86, 31);
   color:white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
