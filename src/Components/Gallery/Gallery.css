@@ -1,0 +1,104 @@
+.pictures-gallery-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.secondary-gallery-container{
+    display: flex;
+    margin-top: -50px;
+}
+
+.third-gallery-container{
+    display: flex;
+    margin-top:-50px;
+}
+
+.next-norway-button-gallery{
+    position: relative;
+  bottom: 50px;
+  left:300px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 500px;
+  border:none;
+  opacity:70%;
+}
+
+.next-prague-button-gallery{
+    position: relative;
+    bottom: 50px;
+    left:300px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 500px;
+    border:none;
+    opacity:70%;
+}
+
+.next-china-button-gallery{
+    position: relative;
+    bottom: 50px;
+    left:300px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 500px;
+    border:none;
+    opacity:70%;
+}
+
+.next-croatia-button-gallery{
+    position: relative;
+    bottom: 50px;
+    left:300px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 500px;
+    border:none;
+    opacity:70%;
+}
+
+.next-italy-button-gallery{
+    position: relative;
+    bottom: 50px;
+    left:300px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 500px;
+    border:none;
+    opacity:70%;
+}
+
+.next-slovenia-button-gallery{
+    position: relative;
+    bottom: 50px;
+    left:300px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 500px;
+    border:none;
+    opacity:70%;
+}
+
+.next-greece-button-gallery{
+    position: relative;
+    bottom: 50px;
+    left:300px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 500px;
+    border:none;
+    opacity:70%;
+}
+
+.next-turkey-button-gallery{
+    position: relative;
+    bottom: 50px;
+    left:300px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 500px;
+    border:none;
+    opacity:70%;
+}
+

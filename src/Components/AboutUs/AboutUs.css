@@ -52,7 +52,7 @@
 
 }
 
-.contact-button{
+/* .contact-button{
     border-radius: 38px;
   border: 2px solid rgb(239, 86, 31);
   font-size: 20px;
@@ -65,9 +65,9 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-}
+} */
 
-.contact-button:hover{
+/* .contact-button:hover{
 
    opacity:85%;
    font-weight: bold;
@@ -75,7 +75,7 @@
    transition: 0.3s;
    transform: scale(1.1);
 
-      }
+      } */
 
 .numbers{
     color: orangered;

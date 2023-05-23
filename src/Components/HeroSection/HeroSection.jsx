@@ -72,7 +72,18 @@ const HeroSection = () => {
        FAQ
     </Link>
   </li>
-        <li>Contact Us</li>
+  <li>
+    <Link
+      activeClass="active"
+      to="form-submit-button"
+      spy={true}
+      smooth={true}
+      offset={-70} 
+      duration={500}
+    >
+       Contact
+    </Link>
+  </li>
       </ul>
     </div>
     <div className="hero-section">
