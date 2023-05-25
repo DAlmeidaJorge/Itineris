@@ -1,7 +1,4 @@
 
-.background-cover{
-    /* position: absolute; */
-}
 
 
 .nav-bar-section li:hover {
@@ -39,6 +36,10 @@
 
 }
 
+.logo span{
+  color: orangered;
+}
+
 .nav-section-container{
 
 display: flex;
@@ -63,9 +64,10 @@ font-weight: bold;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 
 
+}
 
-
-
+.hero-section-quote span{
+color:orangered;
 }
 
 .learn-button{
@@ -103,6 +105,10 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 
 }
 
+.quote-section span{
+  color: orangered;
+}
+
 .main-footer-container{
 
 display: flex;
@@ -119,6 +125,7 @@ gap: 4%;
 font-weight: bold;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 font-size: 30px;
+color: orangered;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -173,14 +180,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 }
 
-/* 
-.footer-text{
 
-font-weight:500;
-font-weight: bold;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-
-} */
 
 .footer-title{
 
@@ -205,3 +205,80 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 
 }
 
+@media (max-width: 767px) {
+
+  .background-cover{
+  height: 750px;
+  }
+
+  .nav-section-container{
+    display: flex;
+    margin-top: -760px;
+    
+  }
+
+  .nav-bar-section {
+     display: flex;
+    
+    
+
+    
+    
+  }
+
+  .main-footer-container{
+
+    display: flex;
+    margin-top:-115px;
+    margin-right: 160px;
+    
+    
+    
+    
+    
+    }
+    .footer-number{
+
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+      font-size: 25px;
+      color: orangered;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .footer-title{
+        font-size:15px;
+        margin-top:0;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+      }
+  .hero-section {
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size:15px;
+  }
+
+  .learn-button {
+    margin-left: 30px;
+    font-size:15px;
+  }
+
+  .main-footer-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .first-footer-container,
+  .second-footer-container,
+  .third-footer-container {
+    width: 80%;
+    text-align: center;
+    padding: 0;
+    border: none;
+    gap: 10px;
+  }
+
+  .learn-more-button {
+    margin-left: 30px;
+  }
+}

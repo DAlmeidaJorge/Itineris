@@ -19,10 +19,8 @@ const HeroSection = () => {
     
       <div className="nav-section-container">
         
-    {/* <img className='logo-picture' src="https://p7.hiclipart.com/preview/194/258/446/package-tour-travel-computer-icons-vacation-clip-art-travel.jpg" alt="airplane-img" width={"5%"} height={"5%"} opacity={"90%"} /> */}
-        
     <div className="logo">
-      <h1>itineris</h1>
+      <h1>itiner<span>i</span>s</h1>
       </div>
       <ul className='nav-bar-section'>
         
@@ -73,23 +71,14 @@ const HeroSection = () => {
     </Link>
   </li>
   <li>
-    <Link
-      activeClass="active"
-      to="form-submit-button"
-      spy={true}
-      smooth={true}
-      offset={-70} 
-      duration={500}
-    >
-       Contact
-    </Link>
+    
   </li>
       </ul>
     </div>
     <div className="hero-section">
-      <h1>Begin your Journey now!</h1>
+      <h1 className="hero-section-quote">Begin your <span>Journey</span> now!</h1>
       <h2 className="quote-section">
-      Embrace the unknown , Explore the uncharted...</h2>
+      Embrace the unknown , Explore the uncharted</h2>
     </div>
     <button onClick={handleLearnmoreClick} className="learn-button">
       Learn More!

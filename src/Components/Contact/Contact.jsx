@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Contact.css";
 import {useState} from 'react'
+import {Link} from 'react-router-dom';
 
 
 const Contact = () => {
@@ -14,12 +15,15 @@ setData({...data, [name]: value})
 const handleSubmit = (e) => {
 e.preventDefault()
 // alert(data)
-window.alert("Thank you for submitting the form!");
+window.alert("Thank you for reaching out, our team will enter in contact with you very soon!");
 }
 
   return (
    <form method ='post' onSubmit={handleSubmit}>
     <h1>Contact <span>Us</span></h1>
+    <Link to="/">
+  <button className="contact-home">Go <span>Back</span> </button>
+</Link>
     {/* <div className='form-container'> */}
     <input type ="form-text" name="name" id="" onChange={handleChange} value = {data.name} placeholder="Enter name"/>
     <input type ="form-email" name="email" id="" onChange={handleChange} value={data.email} placeholder="example@gmail.com"/>

@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import "./Testimonials.css";
 import { AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
-
-
+import { Link } from 'react-router-dom';
 
 
 const Testimonials = () => {
@@ -118,7 +117,7 @@ const china3 = 'https://nationalparks-15bc7.kxcdn.com/images/parks/zhangjiajie/Z
      <img
                 src={chinaPictures[chinaIndex]}
                 alt="China"
-                width="560"
+                width="569"
                 height="340"
                 className="china-details"
               /> 
@@ -129,8 +128,13 @@ const china3 = 'https://nationalparks-15bc7.kxcdn.com/images/parks/zhangjiajie/Z
 <button className='next-china-button' onClick={handleChinaForward}>
   <AiFillCaretRight className='next-icon' />
 </button>
-         
-     </div>
+ 
+<Link to="/gallery">
+  <button className="see-more-button">See More</button>
+</Link>
+
+ </div>
+ 
   </div>
 
  </div>

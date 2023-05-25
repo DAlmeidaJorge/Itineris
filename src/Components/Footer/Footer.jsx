@@ -5,6 +5,7 @@ import {SiYourtraveldottv} from "react-icons/si"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import "./Footer.css";
+import {Link} from 'react-router-dom';
 
 
 const Footer = () => {
@@ -41,12 +42,15 @@ const Footer = () => {
         <h5>Sun: Closed</h5>
        </div>
        <div className="contact-container">
-        <h4>SUBSCRIPTION</h4>
-        <h5>Enter your email address for latest offers! </h5>
+        <h4>Contact us</h4>
+        <h5>Have a question or need more information? Let us help you plan your dream adventure!"</h5>
         <div>
-    <input type="email-section" placeholder="Enter your email"  className="email-input"/>
+    {/* <input type="email-section" placeholder="Enter your email"  className="email-input"/> */}
     <br />
-    <button className='submit-button'>Submit</button>
+    <Link to="/contact">
+    <button className='submit-button'>Contact us</button>
+    
+    </Link>
   </div>
        </div>
         {/* <div className="footer-icons">

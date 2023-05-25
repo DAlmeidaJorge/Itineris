@@ -2,6 +2,7 @@ import React from 'react'
 import { AiFillCaretRight, AiFillCaretLeft } from "react-icons/ai";
 import "./Gallery.css";
 import {useState} from 'react';
+import {Link} from 'react-router-dom';
 
 const Gallery = () => {
 
@@ -110,7 +111,7 @@ const handleNorwayBackward = () => {
   };
 
   const handleTurkeyForward = () => {
-    setChinaIndex(prevIndex => (prevIndex + 1) % turkeyPictures.length);
+    setTurkeyIndex(prevIndex => (prevIndex + 1) % turkeyPictures.length);
   };
 
   const handleTurkeyBackward = () => {
@@ -131,7 +132,31 @@ const handleNorwayBackward = () => {
 
 
   return (
+    
+    
+    
+      <div className="nav-gallery-container">
+    <div className="gallery-logo">
+      <h1>itineris</h1>
+        
+        
+      </div>
+     
+      <ul className='gallery-nav-bar-section'>
+        
+        <li>
+        <Link
+       
+        to="/"
+      
+      >
+          Home
+        </Link> 
+        </li>
+  
+      </ul>
     <div className='pictures-gallery-container'>
+       
      <div className='secondary-gallery-container'>
      <div className='norway-pictures'>
           <img
@@ -141,7 +166,6 @@ const handleNorwayBackward = () => {
               height="340"
               className="norway-details-gallery"
             />  
-
           <button className='next-norway-button-gallery' onClick={handleNorwayBackward}>
             <AiFillCaretLeft className='next-icon-gallery' />
           </button>
@@ -149,8 +173,8 @@ const handleNorwayBackward = () => {
             <AiFillCaretRight className='next-icon-gallery' />
           </button>
        
+   
 </div>
-
 
   <div className='prague-pictures'>
     
@@ -282,7 +306,7 @@ const handleNorwayBackward = () => {
 
 </div>
  </div>
-    
+    </div>
  
  
                                      

@@ -33,7 +33,7 @@ const AboutUs = () => {
                     </div>
                     </div>
                  </div>
-            {/* <button className='contact-button'>Contact Us</button> */}
+             {/* <button className='contact-button'>Contact Us</button>  */}
                  </div>
                  </div>
          <img className='about-cover' src ="https://media.istockphoto.com/photos/travel-planning-concept-on-map-picture-id891573112?b=1&k=20&m=891573112&s=612x612&w=0&h=cEVoMlFS_LmuQVlRthh3-tE4d_iZacnXXT8WvtFrddg=" alt="map-img" width={"25%"} height={"25%"} opacity={"90%"} />

@@ -231,3 +231,78 @@ margin-top: -123px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
   
 }   
+
+
+
+
+
+  @media (max-width: 767px) {
+
+    .main-destination-container{
+      display: flex;
+      margin-top: 50px;
+      flex-direction: column;
+    }
+    .pictures-container {
+      display: flex;
+      margin-top:70px;
+      flex-direction: column;
+    }
+    .where-heading{
+      margin-top:200px;
+      margin-left:35px;
+      font-size:20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bolder;
+      opacity: 90%;
+  }
+  
+  .destinations-heading{
+   
+  
+      margin-top:20px;
+      margin-left:35px;
+      font-size: 50px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bolder;
+      
+  }
+    .slovenia-container,
+    .italy-container,
+    .croatia-container {
+      width: 100%;
+      margin-bottom: 120px;
+    }
+
+    .learn-more-button{
+      margin-top:-180px; 
+      margin-right:90px; 
+      border-radius: 38px; 
+      justify-content: center;
+     border: 2px solid rgb(239, 86, 31);
+     font-size: 15px;
+     width: 100px;
+     height: 50px; 
+       margin-left: 90px; 
+      background-color: rgb(239, 86, 31);
+     color:white;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: bold;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+
+    }
+
+    .slovenia-details{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     font-size: 15px;
+      margin-left:18px;
+      margin-top:65px;
+      color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    }
+    }
+  
