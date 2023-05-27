@@ -367,14 +367,16 @@
         }
     
       .see-more-button{
-        display: flex;
-        margin-bottom:30px;
-        margin-left:470px;
+       
+        margin-bottom:80px;
+        margin-left:370px;
         text-decoration: none;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color:black;
+        color:rgb(15, 14, 14);
         border-radius:15px;
-        
+        background-color: black;
+    
+        color: rgb(255, 255, 255);
       }
     
       .see-more-button:hover{

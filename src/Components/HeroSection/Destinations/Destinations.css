@@ -132,7 +132,7 @@ margin-top: -123px;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 28.2%;
+    width: 28.24%;
     height: 0; 
     padding-bottom: 35%; 
     transition: 0.3s;
@@ -249,7 +249,7 @@ margin-top: -123px;
       flex-direction: column;
     }
     .where-heading{
-      margin-top:200px;
+      margin-top:100px;
       margin-left:35px;
       font-size:20px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -260,9 +260,9 @@ margin-top: -123px;
   .destinations-heading{
    
   
-      margin-top:20px;
+      margin-top:10px;
       margin-left:35px;
-      font-size: 50px;
+      font-size: 40px;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       font-weight: bolder;
       
@@ -270,7 +270,9 @@ margin-top: -123px;
     .slovenia-container,
     .italy-container,
     .croatia-container {
-      width: 100%;
+      min-width: 100%;
+      height: max-content;
+      
       margin-bottom: 120px;
     }
 
@@ -304,5 +306,17 @@ margin-top: -123px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
     }
+
+
+
+
+
+
+
+
+
+
+
+    
     }
   

@@ -8,6 +8,20 @@
 
   }
 
+  .menu-toggle{
+    display: flex;
+    cursor: pointer;
+  }
+
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+
 
 .nav-bar-section{
 
@@ -28,6 +42,24 @@
 
 }
 
+.nav-bar-section li {
+  list-style-type: none;
+}
+
+.nav-bar-section li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.nav-bar-section li a:hover {
+  color: orangered;
+}
+
+
+
+
  .logo{
 
     font-weight: bold;
@@ -46,7 +78,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 color: white;
-margin-top:-855px;
+margin-top:-880px;
 margin-left: 60px;
 
 
@@ -209,6 +241,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
   .background-cover{
   height: 750px;
+  object-fit: cover;
   }
 
   .nav-section-container{
@@ -217,13 +250,55 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     
   }
 
-  .nav-bar-section {
-     display: flex;
+  @media (max-width: 767px) {
+    .nav-bar-section {
+      display: flex;
+      
+    }
     
+  .navbar{
+    margin-right: 50px;
+  }
+  
+    .nav-bar-section.active {
+      display: block; 
+    }
+  }
+  
+  .menu-toggle {
+    display: block;
     
+  }
 
+  .nav-bar-section {
+    display: none;
+    flex-direction: column;
+    background-color: #000;
+    position: absolute;
+    top: 50px;
+    left: 260px;
+    width: 100%;
+    padding: 1px;
+    z-index: 100;
+    text-align: center;
+  }
+
+  .nav-bar-section.active {
+    display: flex;
+    width: 50%;
+    border-radius:20px;
+    background-color: rgba(110, 137, 184, 0.69);
     
-    
+  }
+
+  .menu-toggle .bar {
+    background-color: orangered;
+  }
+
+  .nav-bar-section li a {
+    color: orangered;
+    font-size: 20px;
+    margin: 10px 0;
   }
 
   .main-footer-container{
@@ -252,13 +327,13 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
       }
   .hero-section {
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 15px;
     font-size:15px;
   }
 
   .learn-button {
-    margin-left: 30px;
+    margin-left: 65px;
     font-size:15px;
   }
 
@@ -280,5 +355,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
   .learn-more-button {
     margin-left: 30px;
+  }
+
+
+  .quote-section{
+    font-size: 20px;
   }
 }

@@ -131,13 +131,14 @@
   
     .about-text {
       width: auto;
-      margin-left: 0;
-      text-align: center;
+      margin-left: 10;
+      font-size: 17px;
+      text-align:start;
     }
   
     .about-cover {
       margin-left: 0;
-      margin-top: 20px;
+      margin-top: -10px;
       width: 80%;
       height: auto;
     }

@@ -152,3 +152,75 @@ font-size: 30px;
 }
    
   
+@media (max-width: 767px) {
+
+    .pictures-gallery-container {
+      display: flex;
+      flex-direction: column;
+      max-width: fit-content;
+      margin-top: 120px;
+      gap: 40px;
+      background-color: rgb(221, 216, 216);
+    }
+    
+    .secondary-gallery-container,
+    .third-gallery-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: -50px;
+    }
+  
+    .next-norway-button-gallery,
+    .next-prague-button-gallery,
+    .next-china-button-gallery,
+    .next-croatia-button-gallery,
+    .next-italy-button-gallery,
+    .next-slovenia-button-gallery,
+    .next-greece-button-gallery,
+    .next-turkey-button-gallery {
+      position: relative;
+      bottom: 20px;
+      left: -80px;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 500px;
+      border: none;
+      opacity: 70%;
+    }
+  
+    .nav-gallery-container {
+      background-color: rgb(221, 216, 216);
+      margin-top: -5px;
+    }
+  
+    .gallery-logo {
+      display: flex;
+      margin-left: 15px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  
+    .gallery-nav-bar-section {
+      display: flex;
+      font-size: 10px;
+    }
+  
+    .gallery-nav-bar-section li {
+      list-style: none;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      margin-top: -75px;
+      font-size: 30px;
+    }
+  
+    .gallery-nav-bar-section li a {
+      text-decoration: none;
+      color: black;
+      margin-left: 300px;
+    }
+  
+    .gallery-nav-bar-section li a:hover {
+      opacity: 60%;
+    }
+  }
+  
+
