@@ -286,8 +286,8 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   .nav-bar-section.active {
     display: flex;
     width: 50%;
-    border-radius:20px;
-    background-color: rgba(110, 137, 184, 0.69);
+    border-radius:40px;
+    background-color: rgba(110, 137, 184, 0.29);
     
   }
 
